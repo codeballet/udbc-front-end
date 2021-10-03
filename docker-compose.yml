@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: .
+    image: codeballet/udbc-frontend:v1
+    ports:
+      - 8079
